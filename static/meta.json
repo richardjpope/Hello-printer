@@ -1,0 +1,52 @@
+{
+    "name": "Hello, World!",
+    "description": "Example publication for Little Printer",
+    "delivered_on": "Mondays",
+    "send_timezone_info": "true",
+    "send_delivery_count": "false",
+    "external_configuration": "false",
+    "config" : {
+      "fields": [
+          {
+              "type": "text",
+              "name": "name",
+              "label": "Enter your name"
+          },
+          {
+              "type": "select",
+              "name": "lang",
+              "label": "Select your greeting language",
+              "options": [
+                  [
+                      "English",
+                      "english"
+                  ],
+                  [
+                      "French",
+                      "french"
+                  ],
+                  [
+                      "German",
+                      "german"
+                  ],
+                  [
+                      "Spanish",
+                      "spanish"
+                  ],
+                  [
+                      "Portuguese",
+                      "portuguese"
+                  ],
+                  [
+                      "Italian",
+                      "italian"
+                  ],
+                  [
+                      "Swedish",
+                      "swedish"
+                  ]
+              ]
+          }
+      ]
+    }
+}
